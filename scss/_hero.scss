@@ -1,0 +1,18 @@
+.hero {
+    width: 100%;
+    height: calc(100vh - 10rem);
+    display: inline-block;
+    color: $color-fuentes-dos;
+    position: relative;
+
+    h1 {
+        font-size: 4rem;
+        font-style: italic;
+        
+        h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.galeriaInicio {
+    height: 550px;
+    width: 430px;
+    transition: all 0.4s;
+    
+    
+    &:hover {
+        height: 565px;
+        width: 445px;
+        
+    }
+}

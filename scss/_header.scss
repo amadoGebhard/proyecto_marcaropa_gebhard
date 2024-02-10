@@ -1,0 +1,23 @@
+.imgLogo {
+    width: 150px;
+    text-align: start;
+}
+
+.header {
+    background: radial-gradient( black ,#141019);
+    border-top: 15px rgb(1, 4, 7) solid;
+}
+
+.menuNav a {
+    @include botones;
+    
+
+    &:hover {
+        background-color: rgb(77, 77, 77);
+        color: $color-fuentes-dos;
+    }
+}
+
+li {
+    margin: 1rem;
+}

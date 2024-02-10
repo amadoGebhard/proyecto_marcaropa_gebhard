@@ -1,0 +1,22 @@
+p {
+    padding: 0;
+    height: 10px;
+}
+
+div {
+    input {
+        background-color: black;
+        @include botones;
+        text-transform: 0.5s;
+
+        &:hover {
+            background-color: rgb(77, 77, 77);
+            color: $color-fuentes-dos;
+        }  
+    }
+}
+
+textarea {
+    background-color: black;
+    color: white;
+}
