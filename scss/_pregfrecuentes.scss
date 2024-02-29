@@ -1,3 +1,11 @@
+.pregHero {
+    
+    width: 100%;
+    height: calc(250vh - 8rem);
+    display: inline-block;
+    color: $color-fuentes-dos;
+}
+
 .tarjetas img {
     height: 65px;
     width: 100px;
